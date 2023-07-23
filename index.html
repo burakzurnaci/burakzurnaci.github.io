@@ -28,8 +28,9 @@
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
 							<li><a href="#one">Who am I?</a></li>
-							<li><a href="#two">My games</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#two">Playable ads</a></li>
+							<li><a href="#three">How I started ?</a></li>
+							<li><a href="#four">Get in touch</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -76,9 +77,56 @@
 							</div>
 						</section>
 					</section>
-
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+				<section id="two" class="wrapper style3 fade-up">
+					<div class="inner">
+						<h2>Playable Ads</h2>
+						<p>I've created these games by using Luna.</p>
+						<div class="features">
+							<section>
+							<h3>Defense Land</h3>
+								<img src="images/PlayableIcons/1.jpg" alt="" data-position="top center" />
+							<div class="playables">
+								<button id="defense-PLY03-button" onclick="startPlayable('defense-PLY03', )">PLAY</button>
+								<iframe id="defense-PLY03" data-src="playables/defense-land/PLY03.html" src="about:blank" width="0" height="0">
+								</iframe>
+								<p>IDLE</p>
+							</div>
+							<div class="playables">
+								<button id="defense-PLY02-button" onclick="startPlayable('defense-PLY02', )">PLAY</button>
+								<iframe id="defense-PLY02" data-src="playables/defense-land/PLY02.html" src="about:blank" width="0" height="0">
+								</iframe>
+								<p>Mortar Shot</p>
+							</div>
+								<div class="playables">
+									<button id="defense-PLY01-button" onclick="startPlayable('defense-PLY01', )">PLAY</button>
+									<iframe id="defense-PLY01" data-src="playables/defense-land/PLY01.html" src="about:blank" width="0" height="0">
+									</iframe>
+									<p>Gameplay</p>
+								</div>
+							</section>
+							
+							<section>
+							<h3>Make The Combine</h3>
+							<div class="playables">
+								<button id="km-test1-button" onclick="startPlayable('km-test1', )">PLAY</button>
+								<iframe id="km-test1" data-src="playables/defense-land/Test1.html" src="about:blank" width="0" height="0">
+								</iframe>
+								<p>Crosline</p>
+							</div>
+							<div class="playables">
+								<button id="km-test2-button" onclick="startPlayable('km-test2', )">PLAY</button>
+								<iframe id="km-test2" data-src="playables/defense-land/Test1.html" src="about:blank" width="0" height="0">
+								</iframe>
+								<p>Crosline</p>
+							</div>
+							</section>
+						</div>
+					</div>
+				</section>
+				
+				<!-- Three -->
+					<section id="three" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>My Games</h2>
 							<p>I've created these games by using Unity.</p>
@@ -109,7 +157,7 @@
 					</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+					<section id="four" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<p>You can contact me via E-Mail or LinkedIn.</p>
@@ -149,6 +197,19 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function startPlayable(iFrameId) {
+					let iFrame = document.getElementById(iFrameId);
+					let button = document.getElementById(iFrameId + '-button');
+
+					iFrame.setAttribute("src", iFrame.getAttribute("data-src"));
+					iFrame.setAttribute("width", "360");
+					iFrame.setAttribute("height", "640");
+					
+					button.remove()
+				}
+				
+			</script>
 
 	</body>
 </html>
