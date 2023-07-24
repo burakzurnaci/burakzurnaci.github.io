@@ -1835,7 +1835,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #ffffff ;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			/*color: #312450 !important;*/
 		}
 
 			input[type="submit"].primary:after,
@@ -1975,7 +1975,34 @@ input, select, textarea {
 				.button:hover:active:after {
 					opacity: 0.1;
 				}
+.DefenseButton {
+	/*box-shadow: 0px 1px 0px 0px #4f524e;*/
+	/*background:linear-gradient(to bottom, #f0aa30 5%, #ffb726 100%);*/
+	background-color:#f0aa30;
+	/*border-radius:26px;*/
+	/*border-radius:26px;*/
+	/*border:2px solid #000000;*/
+	/*display:inline-block;*/
+	cursor:pointer;
+	color:black ;
+	/*font-family:Impact;*/
+	font-size:16px;
+	/*padding:8px 16px;*/
+	/*text-decoration:none;*/
+	/*box-sizing: border-box;*/
+}
+.DefenseButton:hover {
+	background:linear-gradient(to bottom, #ffb726 5%, #f0aa30 100%);
+	background-color:#ffb726;
+}
+.DefenseButton:active {
+	position:relative;
+	top:1px;
+}
 
+				
+				
+				
 /* Features */
 
 	.features {
