@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad07059-3beb-4c17-9e69-a6535e96c230" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.burakzurnaci.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.burakzurnaci.github.io.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="0ad07059-3beb-4c17-9e69-a6535e96c230" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,9 +42,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\PTN-BurakZurnaci\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\PTN-BurakZurnaci\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\PTN-BurakZurnaci\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\Buchi\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Buchi\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Buchi\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -63,6 +60,7 @@
       <workItem from="1690053511476" duration="3723000" />
       <workItem from="1690129065205" duration="2809000" />
       <workItem from="1690180882947" duration="1195000" />
+      <workItem from="1690479537357" duration="1086000" />
     </task>
     <servers />
   </component>
