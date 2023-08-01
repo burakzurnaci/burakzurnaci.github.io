@@ -1978,13 +1978,13 @@ input, select, textarea {
 .DefenseButton {
 	/*box-shadow: 0px 1px 0px 0px #4f524e;*/
 	/*background:linear-gradient(to bottom, #f0aa30 5%, #ffb726 100%);*/
-	background-color:#f0aa30;
+	background-color:#8f18de;
 	/*border-radius:26px;*/
 	/*border-radius:26px;*/
 	/*border:2px solid #000000;*/
 	/*display:inline-block;*/
 	cursor:pointer;
-	color:black ;
+	color:white ;
 	/*font-family:Impact;*/
 	font-size:16px;
 	/*padding:8px 16px;*/
@@ -1992,8 +1992,8 @@ input, select, textarea {
 	/*box-sizing: border-box;*/
 }
 .DefenseButton:hover {
-	background:linear-gradient(to bottom, #ffb726 5%, #f0aa30 100%);
-	background-color:#ffb726;
+	background:linear-gradient(to bottom, #8f18de 5%, #8f18de 100%);
+	background-color:#8f18de;
 }
 .DefenseButton:active {
 	position:relative;
