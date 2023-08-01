@@ -2000,7 +2000,9 @@ input, select, textarea {
 	top:1px;
 }
 
-				
+.left-aligned-section {
+	text-align: left;
+}		
 				
 				
 /* Features */
@@ -3230,6 +3232,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
+		align-content: center;
 	}
 
 		.wrapper > .inner {
